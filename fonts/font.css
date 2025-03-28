@@ -1,0 +1,35 @@
+@font-face {
+    font-family: "AtlasTypewriter-Thin-Trial";
+    src: url("../font.css/AtlasTypewriter-Thin-Trial.otf"); 
+    src: local("AtlasTypewriter Thin"), local("AtlasTypewriter-Thin-Trial"),
+    url("../atlas/AtlasTypewriter-Thin-Trial.otf") format("truetype");
+    font-style: thin;
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: "AtlasTypewriter-Bold-Trial";
+    src: url("../font.css/AtlasTypewriter-Bold-Trial.otf"); 
+    src: local("AtlasTypewriter Bold"), local("AtlasTypewriter-Bold-Trial"),
+    url("../atlas/AtlasTypewriter-Bold-Trial.otf") format("truetype");
+    font-style: bold;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "AtlasTypewriter-Medium-Trial";
+    src: url(./font.css/AtlasTypewriter-Medium-Trial.otf); 
+    src: local("AtlasTypewriter Medium"), local("AtlasTypewriter-Medium-Trial"),
+    url("../atlas/AtlasTypewriter-Medium-Trial.otf") format("truetype");
+    font-style: medium;
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: "AtlasTypewriter-Regular-Trial";
+    src: url("../font.css/AtlasTypewriter-Regular-Trial.otf"); 
+    src: local("AtlasTypewriter Regular"), local("AtlasTypewriter-Regular-Trial"),
+    url("../atlas/AtlasTypewriter-Regular-Trial.otf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}

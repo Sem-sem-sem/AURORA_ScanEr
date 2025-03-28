@@ -1,0 +1,544 @@
+@font-face {
+  font-family: "AtlasTypewriter-Regular-Trial";
+  src: url(./font.css/AtlasTypewriter-Regular-Trial.otf); 
+  src: local("AtlasTypewriter Regular"), local("AtlasTypewriter-Regular-Trial"),
+  url("../atlas/AtlasTypewriter-Regular-Trial.otf") format("truetype");
+  font-style: normal;
+  font-weight: 400;
+}
+
+p {
+  font-family: "AtlasTypewriter-Regular-Trial", sans-serif;
+  font-size: 1vw;
+  color: #ffffff;
+}
+
+ 
+body {
+width: 100vw;
+background: #000;
+overflow: hidden;
+}
+
+.map{
+  position: absolute;
+  width: 100vw;
+  height: 50vw;
+  overflow: hidden;
+  /* height: 50vw; */
+  /* object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: 00vw auto ; */
+  /* background-size: cover; */
+  /* background: url(../img/Gradient-Map.png); */
+  }
+
+.img_map{
+  /* position: absolute; */
+  margin-left: -1%;
+  width: 80%;
+  height: 70vw;
+}
+
+
+
+.sect1{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 1%;
+}
+
+.sect2{
+
+  position: absolute;
+  margin-top: 45%;
+  margin-left: 1%;
+}
+
+
+
+.sect3{
+  position: absolute;
+  margin-left: 10%;  
+  margin-top: 52%;
+}
+
+.sect4{ 
+  position: absolute;
+  margin-left: 65%;  
+  margin-top: 53%;
+  display: flex;
+  gap: 1vw; 
+  align-items: center;
+  flex-wrap: nowrap;
+}
+
+.sect5{
+    position:absolute;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    margin-left: 80%;  
+    margin-top: 50%;
+  }
+
+
+
+
+  .square {
+    position: absolute;
+    top: -40px; 
+    left: 0;
+    width: 100%;
+    max-width: 300px; 
+    height: 30px;
+    background: black;
+    border: 2px solid white;
+    transition: background 0.3s ease, width 0.3s ease, height 0.3s ease;
+}
+
+
+@media (max-width: 600px) {
+    .square {
+        width: 80%;  
+        height: 20px; 
+    }
+}
+
+@media (max-width: 400px) {
+    .square {
+        width: 60%; 
+        height: 15px;
+    }
+}
+
+ 
+  .checked-text {
+    position: absolute;
+    top: -60px;
+    left: 50%;
+    font-family: "AtlasTypewriter-Regular-Trial", sans-serif;
+    transform: translateX(-50%);
+    color: white;
+    font-size: 1vw;
+    font-weight: bold;
+    display: none; 
+  }
+
+.sect6{
+  position: absolute;
+  margin-left: 95%;  
+  margin-top: 3%;
+}
+.sect6v2{
+  position: absolute;
+  margin-left: 93%;  
+  margin-top: 30%;
+}
+
+.sect7{
+  width: 100%;
+  display: flex;
+  position: absolute;
+  margin-left: 95%;  
+  margin-top: 12%;
+}
+
+.sect7_t1{
+position: absolute;
+  margin-left: -5%;
+}
+.sect7_t2{
+  position: absolute;
+}
+
+.sect8{
+  position: absolute;
+  margin-left: 90%;
+  margin-top: 1%;
+}
+
+
+.sect8_t1{
+margin-top: -2%;
+margin-bottom: 20%;
+margin-top: 1%;
+}
+
+.sect9{
+  position: absolute;
+  margin-left: 70%;
+  margin-top: 1%;
+}
+
+.img {
+  position: fixed;
+  margin-top: 18vw;
+  margin-left: -48vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  height: auto; 
+  transform: scale(1.5);
+}
+.imG{
+  width: 3%;
+}
+
+
+.img2 {
+  position: fixed;
+  margin-top: 9vw;
+  margin-left: -42vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  height: auto; 
+  transform: scale(1.5);
+}
+
+.imG2{
+  width: 3%;
+}
+
+.img3 {
+  position: absolute;
+  margin-top: 53vw;
+  margin-left: -10vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  height: auto; 
+  transform: scale(1.5);
+}
+.imG3{
+  width: 20%;
+}
+
+.img4 {
+  position: fixed;
+  margin-top: 48vw;
+  margin-left: 1vw;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  width: 100%; 
+  height: auto; 
+  transform: scale(1.5);
+}
+
+.img4_1{
+  position: absolute;
+  margin-top: 45vw;
+  margin-left: 40vw;
+  transform: translate(-50%, -50%);
+  width: 100px; 
+  transition: transform 0.1s linear;
+}
+
+.imG4{
+  width: 35%;
+}
+
+.img6{
+  position: absolute;
+  margin-top: 50vw;
+  margin-left: 5vw;
+
+
+  height: auto; 
+}
+
+.img7 {
+  display: flex;
+ margin-top: 40vw;
+ margin-left: 92vw;
+  width: 100px; 
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: scale(1.5);
+}
+
+.imG7{
+  width: 55%;
+}
+
+.img8{
+  position: absolute;
+  display: flex;
+  margin-top: 30vw;
+  margin-left: 89vw;
+   width: 100px; 
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: scale(1.5);
+}
+
+.imG8{
+  width: 5%;
+}
+
+.img10{
+  position: absolute;
+  display: flex;
+  margin-top: 10vw;
+  margin-left: 45vw;
+   width: 100%;
+   height: 50%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: scale(1.5);
+}
+
+.imG10{
+  width: 2%;
+}
+
+
+.img9{
+  position: absolute;
+  display: flex;
+  margin-top: 20vw;
+  margin-left: 87vw;
+  width: 10%; 
+  height: 10%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   transform: scale(1.5);
+}
+
+.imG9{
+  width: 20%;
+}
+
+.circle_t{
+  position: absolute;
+  margin-top: 3vw;
+  margin-left: 92vw;
+}
+
+
+@keyframes appearAndBlink {
+  0% {
+    opacity: 0;
+    filter: blur(70%);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(70%);
+  }
+}
+
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.3;
+  }
+}
+
+
+.dots-group,
+.circles-group {
+  filter: blur(5px);
+  position: fixed;
+  display: flex;
+  border: 1% solid white;
+  width: 2vw;
+  height: 2vw;
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+  opacity: 0; 
+  animation: appearAndBlink 5s forwards; 
+}
+
+
+.dots-group .dot,
+.circles-group .circle {
+  border: 1% solid white;
+  position: absolute;
+  cursor: pointer;
+  width: 2vw;
+  height: 2vw;
+  border-radius: 50%;
+  animation: blink 1.5s infinite; 
+}
+
+
+.center-dots {
+  margin-top: -20%;
+  left: 20%;
+  position: relative;
+  transform: translate(-50%, -50%);
+  animation-delay: 5s; 
+}
+
+.center-dots .dot.yellow {
+  background: yellow;
+  animation-delay: 0.5s; 
+}
+
+.center-dots .dot.red {
+  background: red;
+  animation-delay: 1s; 
+}
+
+.center-dots .dot.orange {
+  background: orange;
+  animation-delay: 1.5s; 
+}
+
+/* Вторая группа: зеленый, салатный */
+.top-left-circles {
+  top: 20%;
+  left: 60%;
+  position: relative;
+  animation-delay: 10s; 
+}
+
+.top-left-circles .circle.green {
+  background: green;
+  animation-delay: 0.7s; 
+}
+
+.top-left-circles .circle.lime {
+  background: lime;
+  animation-delay: 1.2s; 
+}
+
+
+.bottom-right-circles {
+  position: absolute;
+ margin-top: -10%;
+  right: 50%;
+  animation-delay: 3s; 
+}
+
+.bottom-right-circles .circle.green {
+  background: green;
+  animation-delay: 0.3s; 
+}
+
+.bottom-right-circles .circle.yellow {
+  background: yellow;
+  animation-delay: 0.9s; 
+}
+
+.bottom-right-circles .circle.red {
+  background: red;
+  animation-delay: 1.4s; 
+}
+
+
+
+#grid {
+  display: grid;
+  position: fixed;
+  top: 2vw;
+  width: 100vw;
+  height: 100vw;
+  grid-template-columns: repeat(auto-fill, 20px);
+  grid-template-rows: repeat(auto-fill, 20px);
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: orange;
+  position: relative;
+  transition: transform 0.1s ease-out;
+}
+
+@keyframes jitter {
+  0% { transform: translate(0, 0); }
+  100% { 
+      transform: translate(
+          calc(-4px + 8px * random()), 
+          calc(-4px + 8px * random())
+      );
+  }
+}
+
+.aurora-bg {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(120deg, 
+    #0d1b2a, 
+    #1b263b, 
+    #415a77, 
+    #778da9, 
+    #00ffcc, 
+    #0099ff, 
+    #a300cc, 
+    #0d1b2a);
+  background-size: 300% 300%;
+  animation: aurora 10s infinite alternate ease-in-out;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+@keyframes aurora {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.none {
+  visibility: hidden;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.popup1, .popup2, .popup3 {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.8);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0.3s; 
+}
+
+.popup1.show, .popup2.show, .popup3.show {
+  opacity: 10;
+  visibility: visible;
+  transition: opacity 0.3s ease-in-out, visibility 0s linear 0s;
+}
+
+.close {
+  color: #000;
+  background: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  position: absolute;
+  cursor: pointer;
+  z-index: 10000000000;
+}
+
+.close:hover {
+  background-color: #ddd;
+}
+
+

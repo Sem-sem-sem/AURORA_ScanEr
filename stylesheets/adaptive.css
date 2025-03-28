@@ -1,0 +1,103 @@
+@media screen and (max-width: 414px) {
+    
+    .sect1, .sect3, .sect4, .sect5, .sect6, .sect7,
+    .img, .img3, .img4, .img4_1, .img, .circle_t, .circles-group top-left-circles, .circles-group bottom-right-circles,
+    .circles-group dots-group center-dots {
+      display: none;
+      overflow: hidden;
+      width: 100%;
+    }
+  
+   
+
+   .img_map{
+    width: 100vw;
+    height: 100vw;
+   }
+
+   .map{
+    width: 80vw;
+    height: 100vw;
+    margin-top: 50vw;
+    margin-left: 5vw;
+   }
+    p {
+        font-family: "AtlasTypewriter-Regular-Trial", sans-serif;
+        font-size: 3vw;
+        color: #ffffff;
+      }
+      .sect6v2{
+        position: absolute;
+        top: 75%;
+        left: 20%; 
+        margin: 0;
+        font-size: 20vw;
+      }
+
+    .sect8 {
+        position: absolute;
+        top: 75%;
+        left: 5%; 
+        margin: 0;
+        font-size: 20vw;
+        text-align: left; 
+        color: #ffffff; 
+      }
+
+
+    /* Sect9 в верхнем правом углу */
+    .sect9 {
+      position: absolute;
+      top: 1%; /* Отступ сверху */
+      left: 20%;
+      margin: 0;
+      font-size: 20vw;
+      color: #ffffff; 
+    }
+  
+    /* Sect2 в нижнем центре */
+    .sect2 {
+      position: absolute;
+      top: 5%;
+      left: 60%;
+      transform: translateX(-50%); 
+      margin: 0;
+      font-size: 4vw;
+      text-align: center; 
+      color: #ffffff; 
+    }
+  
+  
+    
+    .img2 {
+      position: absolute;
+      top: -8%; 
+      left: 5%; 
+      width: 8%; 
+      height: 100vh; 
+      margin: 0;
+      display: flex;
+
+    }
+  
+    .imG2 {
+      width: 100%; 
+      height: auto;
+    }
+  
+    .img7{
+      position: absolute;
+      top: 20%; 
+      left: -5%; 
+      width: 8%; 
+      height: 100vh; 
+    }
+
+    .imG7{
+      width: 100%; 
+      height: auto;
+      top: 10%; 
+      left: -20%; 
+    }
+
+  }
